@@ -4,5 +4,34 @@
     bottom: 0;
     width: 100%;
     padding: 5px 0;
-    background: #004134;
+    background: #2281ad;
+    box-shadow: 0 0 50xp (0, 0, 0, 0.5);
+    user-select: none;
+    transition: bottom 0.4s;
+    height: 100px;
+}
+
+.keyboard--hidden {
+    bottom: -100px;
+}
+
+.keyboard--keys {
+    text-align: center;
+}
+
+.keyboard--key {
+    height: 45px;
+    width: 6%;
+    max-width: 90px;
+    margin: 3px;
+    border-radius: 4px;
+    border: none;
+    background: rgb(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 1.05em;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
